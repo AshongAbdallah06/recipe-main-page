@@ -10,20 +10,21 @@ import Footer from './Footer';
 
 function App() {
     return (
-        <main className="App">
-            <Header />
+        <div className="App">
 
-            <PreparationTime />
+            <main>
+                <Header />
 
-            <Ingredients />
+                <PreparationTime />
 
-            <Instructions />
+                <Ingredients />
 
-             <Nutrition />
+                <Instructions />
 
+                <Nutrition />     
+            </main>
              <Footer />
-
-        </main>
+        </div>
     );
 }
 
